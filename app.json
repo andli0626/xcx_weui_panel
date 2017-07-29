@@ -1,0 +1,29 @@
+{
+   "pages": [
+      "pages/search/search",
+      "pages/historyrecord/historyrecord"
+   ],
+   "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#121212",
+      "navigationBarTitleText": "考勤签到",
+      "navigationBarTextStyle": "#fff",
+      "backgroundColor": "#ddd"
+   },
+   "tabBar": {
+      "color": "#000",
+      "selectedColor": "#4db900",
+      "backgroundColor": "#fbfbfd",
+      "position": "bottom",
+      "list": [
+         {
+            "pagePath": "pages/search/search",
+            "text": "上报位置"
+         },
+         {
+            "pagePath": "pages/historyrecord/historyrecord",
+            "text": "历史记录"
+         }
+      ]
+   }
+}

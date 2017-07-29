@@ -1,0 +1,14 @@
+<view class="map_container">
+   <view class="weui-panel weui-media-box__hd">
+      <view class="weui-media-box__bd">
+         <block wx:for="{{datalists}}" wx:for-item="item" wx:key="*this">
+            <view data-index="{{index}}" class="weui-media-box weui-media-box_appmsg" bindtap='clickListItem'>
+               <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                  <view class="weui-media-box__title">{{index+1}}.{{datalists[index].poi_title}}</view>
+                  <view class="weui-media-box__desc">签到时间：{{datalists[index].createdAt}}</view>
+               </view>
+            </view>
+         </block>
+      </view>
+   </view>
+</view>
